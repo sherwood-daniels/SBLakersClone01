@@ -12,7 +12,8 @@ import SwiftData
 struct SBLakersClone01App: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            // Add your SwiftData models here when ready
+            // Example: Player.self, Game.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +26,7 @@ struct SBLakersClone01App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView() // Launches your interactive tab layout
         }
         .modelContainer(sharedModelContainer)
     }
