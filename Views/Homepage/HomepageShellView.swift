@@ -8,6 +8,17 @@
 
 import SwiftUI
 
+enum HomepageSection: String, CaseIterable {
+//    case featured = "Featured"
+//    case latest = "Latest"
+//    case video = "Video"
+    case featured, latest, video
+}
+
+enum FooterSection: String, CaseIterable {
+    case home, tickets, schedule, team, more
+}
+
 struct HomepageShellView: View {
     @State private var selectedHeader: HomepageSection = .featured
     @State private var selectedFooter: FooterSection = .home

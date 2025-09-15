@@ -26,7 +26,6 @@ struct SBLakersClone01App: App {
 
     var body: some Scene {
         WindowGroup {
-            // MainTabView() // Launches your interactive tab layout
             HomepageShellView()  // Launches your interactive tab layout
         }
         .modelContainer(sharedModelContainer)
