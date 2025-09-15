@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4782C5B2E77938C00B46E54 /* HomepageShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4782C5A2E77938C00B46E54 /* HomepageShellView.swift */; };
+		F4782C5D2E77943400B46E54 /* FooterMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4782C5C2E77943400B46E54 /* FooterMenuView.swift */; };
 		F49871732E76A747004C920B /* HomepageTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49871722E76A747004C920B /* HomepageTemplateView.swift */; };
 		F49871772E76AADA004C920B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49871762E76AADA004C920B /* HeaderView.swift */; };
 		F49871792E76AB41004C920B /* FooterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49871782E76AB41004C920B /* FooterTabView.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4782C5A2E77938C00B46E54 /* HomepageShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageShellView.swift; sourceTree = "<group>"; };
+		F4782C5C2E77943400B46E54 /* FooterMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterMenuView.swift; sourceTree = "<group>"; };
 		F49871442E7635F2004C920B /* SBLakersClone01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBLakersClone01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49871542E7635F5004C920B /* SBLakersClone01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBLakersClone01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F498715E2E7635F5004C920B /* SBLakersClone01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBLakersClone01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +136,7 @@
 		F49871742E76AA5E004C920B /* Homepage */ = {
 			isa = PBXGroup;
 			children = (
+				F4782C5A2E77938C00B46E54 /* HomepageShellView.swift */,
 				F498718A2E76AF7E004C920B /* MainTabView.swift */,
 				F49871882E76ADF5004C920B /* MoreTabView.swift */,
 				F49871862E76ADE2004C920B /* TeamTabView.swift */,
@@ -149,6 +154,7 @@
 		F49871752E76AA7E004C920B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F4782C5C2E77943400B46E54 /* FooterMenuView.swift */,
 				F49871782E76AB41004C920B /* FooterTabView.swift */,
 				F49871762E76AADA004C920B /* HeaderView.swift */,
 			);
@@ -299,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4782C5D2E77943400B46E54 /* FooterMenuView.swift in Sources */,
 				F49871832E76ADC6004C920B /* TicketsTabView.swift in Sources */,
 				F49871772E76AADA004C920B /* HeaderView.swift in Sources */,
 				F498717F2E76ACDC004C920B /* VideoContentView.swift in Sources */,
@@ -310,6 +317,7 @@
 				F49871892E76ADF5004C920B /* MoreTabView.swift in Sources */,
 				F49871872E76ADE2004C920B /* TeamTabView.swift in Sources */,
 				F49871852E76ADD5004C920B /* ScheduleTabView.swift in Sources */,
+				F4782C5B2E77938C00B46E54 /* HomepageShellView.swift in Sources */,
 				F498718B2E76AF7E004C920B /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

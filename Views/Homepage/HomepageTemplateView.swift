@@ -8,9 +8,14 @@
 import SwiftUI
 
 enum HomepageSection: String, CaseIterable {
-    case featured = "Featured"
-    case latest = "Latest"
-    case video = "Video"
+//    case featured = "Featured"
+//    case latest = "Latest"
+//    case video = "Video"
+    case featured, latest, video
+}
+
+enum FooterSection: String, CaseIterable {
+    case home, tickets, schedule, team, more
 }
 
 struct DummyView: View {
